@@ -2,71 +2,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>QuickBuy ID</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 20px;
-      text-align: center;
-    }
-    h1 {
-      color: #222;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    .product {
-      background: white;
-      padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-    .product img {
-      max-width: 100%;
-      max-height: 200px;
-      height: auto;
-      object-fit: contain;
-    }
-    .product h3 {
-      font-size: 16px;
-      margin: 10px 0;
-    }
-    .product button {
-      background-color: #ff5e5e;
-      color: white;
-      border: none;
-      padding: 10px 20px;
-      font-size: 14px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    .product button:hover {
-      background-color: #e04e4e;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>QuickBuy ID</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #222;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .product {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product h2 {
+            font-size: 16px;
+        }
+        .product a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #ff5f5f;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-  <h1>Welcome to QuickBuy ID</h1>
-  <div class="grid">
-    <div class="product"><img src="mini thermal printer.png" alt="Mini Thermal Printer"/><h3>Mini Thermal Printer</h3><a href="#"><button>Buy Now</button></a></div>
-    <div class="product"><img src="usb humidifier.png" alt="USB Humidifier"/><h3>USB Humidifier</h3><a href="#"><button>Buy Now</button></a></div>
-    <div class="product"><img src="mini fan.png" alt="Mini Portable Fan"/><h3>Mini Portable Fan</h3><a href="#"><button>Buy Now</button></a></div>
-    <div class="product"><img src="gamepad-x3.png" alt="Gamepad X3 Bluetooth Smartphone Holder Wireless Joystick PC Gamesir F1"/><h3>Gamepad X3 Bluetooth Smartphone Holder Wireless Joystick PC Gamesir F1</h3><a href="https://s.shopee.co.id/5fcutDhHcd"><button>Buy Now</button></a></div>
-    <div class="product"><img src="portable-speaker.png" alt="Portable Speaker"/><h3>Portable Speaker</h3><a href="https://s.shopee.co.id/BI3MWp4AT"><button>Buy Now</button></a></div>
-    <div class="product"><img src="gaming-fan-cooler.png" alt="Gaming Fan Cooler X52A"/><h3>Gaming Fan Cooler X52A</h3><a href="https://s.shopee.co.id/8pa2yHCplZ"><button>Buy Now</button></a></div>
-    <div class="product"><img src="iwatch-strap.png" alt="Ultra 8 7 SE 6 5 4 3 2 Strap iWatch"/><h3>Ultra 8 7 SE 6 5 4 3 2 Strap iWatch</h3><a href="https://s.shopee.co.id/50NM7z6nUu"><button>Buy Now</button></a></div>
-    <div class="product"><img src="speaker-bluetooth-s10.png" alt="ovitech Spaker Bluetooth 5.0 Alarm LED Display Ultra Bass S10"/><h3>ovitech Spaker Bluetooth 5.0 Alarm LED Display Ultra Bass S10</h3><a href="https://s.shopee.co.id/7KlGviSRM8"><button>Buy Now</button></a></div>
-    <div class="product"><img src="mega-bass-wired-earphone.png" alt="Headset Earphone Gaming Mega Bass Wired"/><h3>Headset Earphone Gaming Mega Bass Wired</h3><a href="https://s.shopee.co.id/yhbO70u8"><button>Buy Now</button></a></div>
-    <div class="product"><img src="acome-earphone.png" alt="ACOME 3D Subwoofer Headphones Powerfull Bass Transparent Black Wire Body ACE01"/><h3>ACOME 3D Subwoofer Headphones Powerfull Bass Transparent Black Wire Body ACE01</h3><a href="https://s.shopee.co.id/1LU5IbKZ7K"><button>Buy Now</button></a></div>
-    <div class="product"><img src="foldable-seat-camping.png" alt="Foldable Seat for Camping"/><h3>Foldable Seat for Camping</h3><a href="https://s.shopee.co.id/40Ux6TUlpC"><button>Buy Now</button></a></div>
-  </div>
+    <h1>Welcome to QuickBuy ID</h1>
+    <div class="grid">
+        <div class="product">
+            <img src="mini_thermal_printer.png" alt="Mini Thermal Printer"/>
+            <h2>Mini Thermal Printer</h2>
+            <a href="#" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="usb_humidifier.png" alt="USB Humidifier"/>
+            <h2>USB Humidifier</h2>
+            <a href="#" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="mini_fan.png" alt="Mini Portable Fan"/>
+            <h2>Mini Portable Fan</h2>
+            <a href="#" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="gamepad-x3.png" alt="Gamepad X3 Bluetooth Smartphone Holder Wireless Joystick PC Gamesir F1"/>
+            <h2>Gamepad X3 Bluetooth Smartphone Holder Wireless Joystick PC Gamesir F1</h2>
+            <a href="#" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="portable-speaker.png" alt="Portable Speaker"/>
+            <h2>Portable Speaker</h2>
+            <a href="https://s.shopee.co.id/BI3MWp4AT" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="gaming-fan-cooler-x52a.png" alt="Gaming Fan Cooler X52A"/>
+            <h2>Gaming Fan Cooler X52A</h2>
+            <a href="https://s.shopee.co.id/8pa2yHCplZ" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="ultra-strap-iwatch.png" alt="Ultra 8 7 SE 6 5 4 3 2 Strap iWatch"/>
+            <h2>Ultra 8 7 SE 6 5 4 3 2 Strap iWatch</h2>
+            <a href="https://s.shopee.co.id/50NM7z6nUu" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="ovitech-speaker-s10.png" alt="ovitech Spaker Bluetooth 5.0 Alarm LED Display Ultra Bass S10"/>
+            <h2>ovitech Spaker Bluetooth 5.0 Alarm LED Display Ultra Bass S10</h2>
+            <a href="https://s.shopee.co.id/7KlGviSRM8" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="mega-bass-wired-earphone.png" alt="Headset Earphone Gaming Mega Bass Wired"/>
+            <h2>Headset Earphone Gaming Mega Bass Wired</h2>
+            <a href="https://s.shopee.co.id/yhbO70u8" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="acome-3d-subwoofer-ace01.png" alt="ACOME 3D Subwoofer Headphones Powerfull Bass Transparent Black Wire Body ACE01"/>
+            <h2>ACOME 3D Subwoofer Headphones Powerfull Bass Transparent Black Wire Body ACE01</h2>
+            <a href="https://s.shopee.co.id/1LU5IbKZ7K" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="foldable-seat-camping.png" alt="Foldable Seat for Camping"/>
+            <h2>Foldable Seat for Camping</h2>
+            <a href="https://s.shopee.co.id/40Ux6TUlpC" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="tws_i13_pro.png" alt="TWS i13 Pro"/>
+            <h2>TWS i13 Pro</h2>
+            <a href="#" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="perfume_women.png" alt="Women's Perfume"/>
+            <h2>Women's Perfume</h2>
+            <a href="#" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="ultrapods_tws.png" alt="Ultrapods TWS"/>
+            <h2>Ultrapods TWS</h2>
+            <a href="#" target="_blank">Buy Now</a>
+        </div>
+<div class="product">
+            <img src="antibacterial_tissue.png" alt="Antibacterial Tissue"/>
+            <h2>Antibacterial Tissue</h2>
+            <a href="#" target="_blank">Buy Now</a>
+        </div>
+    </div>
 </body>
 </html>
